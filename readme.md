@@ -39,7 +39,7 @@ _Amazon EC2 lets you create and manage resources as you define._
 - Go to the AWS console and click on the rescue instance.
 - Click on 'connect'.
 - Go to the 'SSH client' section.
-- Copy the example - ssh -i "rescue-key.pem" ec2-user@ec2-x-x-x-x.us-west-1.compute.amazonaws.com
+- Copy the example - ssh -i "Linux-key.pem" ec2-user@ec2-x-x-x-x.us-west-1.compute.amazonaws.com
 - Open Git on you local machine.
 - Paste copied example on your Git Bash. 
 - Then SSH authorize the key pair and after confirmation SSH successful.
