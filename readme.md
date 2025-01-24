@@ -46,6 +46,7 @@ _Amazon EC2 lets you create and manage resources as you define._
 7. Open Git on you local machine.
 8. Paste copied example on your Git Bash. 
 9. Then SSH authorize the key pair, After confirmation SSH successful.
-####_Your Linux Server is ready to use._
+
+#### _Your Linux Server is ready to use._
 # Summary
 This project teaches the process of creating and managing an Amazon EC2 instance, covering instance configuration, secure network setup, SSH access, and basic server management. It equips learners with essential cloud computing skills to deploy and maintain virtual servers effectively on AWS.
