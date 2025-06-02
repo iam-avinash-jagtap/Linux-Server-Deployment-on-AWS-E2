@@ -1,10 +1,10 @@
-## 🚀 Deploy a Linux Server on AWS EC2
+# 🚀 Deploy a Linux Server on AWS EC2
 
 Welcome to this hands-on project where you'll learn to **create and manage a Linux server** using **Amazon EC2**, one of AWS’s most essential services for deploying scalable cloud infrastructure.
 
 ---
 
-### 🎯 Learning Objectives
+## 🎯 Learning Objectives
 
 By completing this project, you’ll be able to:
 
@@ -16,7 +16,7 @@ By completing this project, you’ll be able to:
 
 ---
 
-### 📚 Prerequisites
+## 📚 Prerequisites
 
 Before starting, make sure you have:
 
@@ -27,22 +27,22 @@ Before starting, make sure you have:
 
 ---
 
-### 🛠️ Step-by-Step Guide
+## 🛠️ Step-by-Step Guide
 
-#### 1️⃣ Login to AWS Console
+### 1️⃣ Login to AWS Console
 
 1. Visit [https://aws.amazon.com](https://aws.amazon.com)
 2. Log in using your AWS account credentials
 
 ---
 
-#### 2️⃣ Launch the EC2 Instance
+### 2️⃣ Launch the EC2 Instance
 
 1. In the AWS Console search bar, type `EC2`
 2. Click on **EC2** under Services
 3. Click **Launch instance**
 
-##### 📝 Configure Instance Settings:
+#### 📝 Configure Instance Settings:
 
 * **Name**: `Linux_Server`
 * **Amazon Machine Image (AMI)**: Choose one of the following from Quick Start:
@@ -54,7 +54,7 @@ Before starting, make sure you have:
 
 ---
 
-#### 3️⃣ Create a Key Pair 🔐
+### 3️⃣ Create a Key Pair 🔐
 
 To enable secure SSH access:
 
@@ -67,7 +67,7 @@ To enable secure SSH access:
 
 ---
 
-#### 4️⃣ Configure Network Settings 🌐
+### 4️⃣ Configure Network Settings 🌐
 
 Set up inbound rules to allow SSH access:
 
@@ -82,18 +82,18 @@ _Note:- This network setting is for SSH purpose Your can add more Inbound rule a
 
 ---
 
-#### 5️⃣ Launch the Instance 🚀
+### 5️⃣ Launch the Instance 🚀
 
 Click on **Launch Instance**
 
-* 🕒 Wait a few moments for the instance to move into `Running` state.
+* 🕒 Wait a few moments for the instance to move into the `Running` state.
 * 📋 Note the **Public IPv4 address** or **Public DNS**.
 
 ---
 
-### 6️⃣: Connect to Your Server via SSH 🔌
+## 6️⃣: Connect to Your Server via SSH 🔌
 
-#### 🖥️ Use Git Bash or Terminal
+### 🖥️ Use Git Bash or Terminal
 
 1. Open **Git Bash** or Terminal on your machine
 
@@ -110,7 +110,7 @@ Click on **Launch Instance**
      chmod 400 Linux-key.pem
 ```
 
-4. Go back to your EC2 instance in AWS Console:
+4. Go back to your EC2 instance in the AWS Console:
 
    * Click **Connect**
    * Go to the **SSH Client** tab
@@ -134,7 +134,7 @@ Click on **Launch Instance**
 
 ---
 
-### Summary 🎉
+## Summary 🎉
 
 You’ve successfully:
 
@@ -147,7 +147,7 @@ This foundational skill will help you in future projects involving server setup,
 
 ---
 
-### 💡 Pro Tips
+## 💡 Pro Tips
 
 * 🔐 Replace `Anywhere (0.0.0.0/0)` with `My IP` in SSH rules for security
 * 📦 Install software using:
@@ -159,9 +159,7 @@ This foundational skill will help you in future projects involving server setup,
 
 * 🔄 Public IP may change if you stop/start the instance — use **Elastic IP** for a static address.
 
----
-
-### 📬 Need Help?
+## 📬 Need Help?
 
 Explore more:
 
@@ -170,6 +168,5 @@ Explore more:
 ---
 
 Happy Cloud Building! ☁️🐧🚀
-**\~ With Avinash Jagtap**
 
----
+**\~ With *Avinash_Jagtap***
